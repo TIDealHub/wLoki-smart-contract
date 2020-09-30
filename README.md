@@ -30,4 +30,4 @@ function burn(uint256 _value) public {
     emit Transfer(_who, address(0), _value);
   }
 ```
-These changes simply allow for the inclusion of a unique string which is used to detect which Loki address to credit when burning wLoki on the Ethereum chain.
+These changes simply allow for the inclusion of a unique string which is used to detect which Loki address to credit when burning wLoki on the Ethereum chain. Do not attempt to directly call the "burnWithNote" function. Always use a web3 enabled wallet directly at https://wloki.chainflip.io to unwrap your Loki.
